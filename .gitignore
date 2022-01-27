@@ -50,3 +50,14 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+# Personal generated executables files
+QR
+calculator
+hello
+multiplication
+name
+sum
+swap
+value

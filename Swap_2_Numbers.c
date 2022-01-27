@@ -2,6 +2,21 @@
 #include <stdlib.h>
 
 
+int swap(x,y)
+{
+	int z;
+
+	printf("Numbers before swapping: %d and %d\n", x, y);
+
+	z = x;
+	x = y;
+	y = z;
+
+	printf("Numbers after swapping: %d and %d\n", x, y);
+	return 0;
+}
+
+
 int main(void)
 {
 	int x, y;
@@ -11,6 +26,8 @@ int main(void)
 
 	printf("Please insert second number: ");
 	scanf("%d",&y);
+
+	swap(x,y);
 
 	x = x + y;
 	y = x - y;
